@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-09-03T15:47:51.200325",
+  "database": "cyberclinic_secure",
+  "analysis_period": "Last 24 hours",
+  "security_score": 100,
+  "security_grade": "A",
+  "summary": {
+    "total_events": 54,
+    "total_alerts": 0,
+    "high_alerts": 0,
+    "medium_alerts": 0,
+    "low_alerts": 0
+  },
+  "brute_force_analysis": {
+    "ip_failure_counts": {
+      "::1": 1
+    },
+    "user_failure_counts": {},
+    "alerts": []
+  },
+  "mfa_analysis": {
+    "total_mfa_events": 0,
+    "mfa_failures": 0,
+    "mfa_successes": 0,
+    "alerts": []
+  },
+  "access_pattern_analysis": {
+    "off_hours_logins": 0,
+    "rate_limited_events": 0,
+    "alerts": []
+  },
+  "all_alerts": [],
+  "recommendations": [
+    "No active threats detected. Continue regular monitoring."
+  ]
+}
